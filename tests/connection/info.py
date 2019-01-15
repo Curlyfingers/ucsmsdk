@@ -28,9 +28,11 @@ def custom_setup():
         hostname = config.get(host, "hostname")
         username = config.get(host, "username")
         password = config.get(host, "password")
+        secure = config.getboolean(host, "secure")
+        port = config.getint(host, "port")
     except:
         return None
-    handle = UcsHandle(hostname, username, password)
+    handle = UcsHandle(hostname, username, password, port, secure)
     handle.login(auto_refresh=True, force=True)
     return handle
 
