@@ -23,7 +23,7 @@ setup(
     long_description=readme + '\n\n' + history,
     author="Cisco Systems Inc",
     author_email='ucs-python@cisco.com',
-    url='https://github.com/CiscoUcs/ucsmsdk',
+    url='https://github.com/Curlyfingers/ucsmsdk',
     packages=[
         'ucsmsdk',
     ],
