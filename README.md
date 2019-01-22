@@ -4,6 +4,8 @@
 [![Code Climate](https://codeclimate.com/github/CiscoUcs/ucsmsdk/badges/gpa.svg)](https://codeclimate.com/github/CiscoUcs/ucsmsdk)
 [![Documentation Status](https://readthedocs.org/projects/ucsmsdk/badge/?version=latest)](http://ucsmsdk.readthedocs.io/en/latest/?badge=latest)
 
+ADDED AIOHTTP CLIENT DRIVER FOR ASYNC REQUESTS. USE IT ON YOUR OWN RISK. STILL NEED TO COVER BY UNIT AND FUNCTIONAL TESTS.
+
 # Python SDK for Cisco UCS
 
 * Apache License, Version 2.0 (the "License")
